@@ -1,0 +1,13 @@
+$nilai = 80;
+
+// Menggunakan ternary operator
+$predikat = $nilai >= 80 ? "Lulus" : "Tidak Lulus";
+
+// Menggunakan if else
+if ($nilai >= 80) {
+  $predikat = "Lulus";
+} else {
+  $predikat = "Tidak Lulus";
+}
+
+echo "Predikat: $predikat";
